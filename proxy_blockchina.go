@@ -21,7 +21,7 @@ type BlockChina struct {
 // CaddyModule is ...
 func (*BlockChina) CaddyModule() caddy.ModuleInfo {
 	return caddy.ModuleInfo{
-		ID:  "trojan.proxies.block_china",
+		ID:  "trojan.proxy.block_china",
 		New: func() caddy.Module { return new(BlockChina) },
 	}
 }
